@@ -791,6 +791,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"' />
             <Game id="EoS_EU" replace='_REGION equ "EU"' />
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
 
@@ -799,6 +800,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"' />
             <Game id="EoS_EU" replace='_REGION equ "EU"' />
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
 
@@ -807,6 +809,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"' />
             <Game id="EoS_EU" replace='_REGION equ "EU"' />
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
 
@@ -815,6 +818,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
 
@@ -823,6 +827,7 @@
           <Replace filename="cipnit_asm_mods/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"' />
             <Game id="EoS_EU" replace='_REGION equ "EU"' />
+            <Game id="EoS_JP" replace='_REGION equ "JP"' />
           </Replace>
         </SimplePatch>
 
@@ -831,6 +836,7 @@
           <Replace filename="cipnit_asm_mods/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"' />
           </Replace>
         </SimplePatch>
 
@@ -839,6 +845,7 @@
           <Replace filename="cipnit_asm_mods/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"' />
           </Replace>
         </SimplePatch>
 
@@ -847,6 +854,7 @@
           <Replace filename="cipnit_asm_mods/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"' />
           </Replace>
         </SimplePatch>
 
@@ -855,6 +863,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
 
@@ -863,6 +872,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
 
@@ -871,6 +881,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
 
@@ -879,6 +890,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
 
@@ -887,6 +899,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
 
@@ -904,6 +917,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
 
@@ -930,6 +944,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
         
@@ -938,6 +953,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
           <Parameters>
             <Param name="_UpdateStats" label="Update the level and stats of evolved enemies" type="select">
@@ -965,6 +981,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
 
@@ -973,6 +990,7 @@
           <Replace filename="end_asm_mods/src/common/regionSelect.asm" regexp='_REGION equ "(\w+)"'>
             <Game id="EoS_NA" replace='_REGION equ "US"'/>
             <Game id="EoS_EU" replace='_REGION equ "EU"'/>
+            <Game id="EoS_JP" replace='_REGION equ "JP"'/>
           </Replace>
         </SimplePatch>
 
