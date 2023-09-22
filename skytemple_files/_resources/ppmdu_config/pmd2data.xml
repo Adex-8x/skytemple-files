@@ -732,10 +732,18 @@
             <Include filename ="anonymous_asm_mods/appraise_all/selector_overlay25.asm"/>
           </OpenBin>
           <Parameters>
-            <Param name="MenuOptionStringID" label="String ID for the Menu Option" min="0" max="65535" default="300" type="int"/>
-            <Param name="AppraiseAllConfirmStringID" label="String ID to confirm the appraise all" min="0" max="65535" default="301" type="int"/>
-            <Param name="AppraiseRevealBeforeStringID" label="String ID before revealing the items" min="0" max="65535" default="302" type="int"/>
-            <Param name="AppraiseRevealItemStringID" label="String ID when revealing an item" min="0" max="65535" default="303" type="int"/>
+            <Game id="EoS_NA" id2="EoS_EU" id3="EoSWVC_NA" id4="EoSWVC_EU">
+              <Param name="MenuOptionStringID" label="String ID for the Menu Option" min="0" max="65535" default="300" type="int"/>
+              <Param name="AppraiseAllConfirmStringID" label="String ID to confirm the appraise all" min="0" max="65535" default="301" type="int"/>
+              <Param name="AppraiseRevealBeforeStringID" label="String ID before revealing the items" min="0" max="65535" default="302" type="int"/>
+              <Param name="AppraiseRevealItemStringID" label="String ID when revealing an item" min="0" max="65535" default="303" type="int"/>
+            </Game>
+            <Game id="EoS_JP">
+              <Param name="MenuOptionStringID" label="String ID for the Menu Option" min="0" max="65535" default="9242" type="int"/>
+              <Param name="AppraiseAllConfirmStringID" label="String ID to confirm the appraise all" min="0" max="65535" default="9243" type="int"/>
+              <Param name="AppraiseRevealBeforeStringID" label="String ID before revealing the items" min="0" max="65535" default="9244" type="int"/>
+              <Param name="AppraiseRevealItemStringID" label="String ID when revealing an item" min="0" max="65535" default="9245" type="int"/>
+            </Game>
             <Param name="ReplaceStrings" label="All strings mentioned above are replaced by a default text when applying" type="select">
               <Option label="Yes" type="int">1</Option>
               <Option label="No" type="int">0</Option>
