@@ -10,5 +10,5 @@
 
 .org AfterFadeToBlack
 .area 0x4
-	bl ResetDescendingFlag ; Was originally mov r0,#0x2
+	bl ResetPitfallFlag ; Was originally mov r0,#0x2
 .endarea

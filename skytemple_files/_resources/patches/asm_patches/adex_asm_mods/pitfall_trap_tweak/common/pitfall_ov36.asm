@@ -27,7 +27,7 @@ ShouldDisplayUi:
 	sub r13,r13,#0x44 ; Original instruction
 	b DisplayUiStart+4
 
-ResetDescendingFlag:
+ResetPitfallFlag:
 	mov r0,#2 ; Original instruction
 	mov r1,#0
 	str r1,[PITFALL_ACTIVE_FLAG]

@@ -577,6 +577,13 @@
           <OpenBin filepath="overlay/overlay_0029.bin">
 	  	<Include filename ="anonymous_asm_mods/add_type/selector_overlay29.asm"/>
 	  </OpenBin>
+            <Parameters>
+              <Param name="FairyTypeMatchup" label="Conversion 2 Type when hit by a Fairy move" type="select">
+                <Option label="Fire" type="int">0</Option>
+                <Option label="Poison" type="int">1</Option>
+                <Option label="Steel" type="int">2</Option>
+              </Param>
+            </Parameters>
         </Patch>
 
         <!-- A patch to implement Fairy-type gummies -->
@@ -649,7 +656,12 @@
 	  	<Include filename ="anonymous_asm_mods/push_allies/selector_overlay36.asm"/>
 	  </OpenBin>
           <Parameters>
-            <Param name="PushStringID" label="String ID for push dialogue" min="0" max="65535" default="299" type="int"/>
+            <Game id="EoS_NA" id2="EoS_EU" id3="EoSWVC_NA" id4="EoSWVC_EU">
+              <Param name="PushStringID" label="String ID for push dialogue" min="0" max="65535" default="299" type="int"/>
+            </Game>
+            <Game id="EoS_JP">
+              <Param name="PushStringID" label="String ID for push dialogue" min="0" max="65535" default="9241" type="int"/>
+            </Game>
             <Param name="ReplaceStrings" label="String mentioned above is replaced by a default text when applying" type="select">
               <Option label="Yes" type="int">1</Option>
               <Option label="No" type="int">0</Option>
